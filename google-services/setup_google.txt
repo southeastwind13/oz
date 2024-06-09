@@ -1,0 +1,13 @@
+pip install google-auth
+pip install google-auth-oauthlib
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+pip install google-api-python-client
+
+
+Google sheet step:
+1. Enable API: https://console.cloud.google.com/apis/enableflow?apiid=sheets.googleapis.com
+2. Config the Oauth: https://console.cloud.google.com/apis/credentials/consent?project=pure-karma-355117
+3. Authorize credentials: https://console.cloud.google.com/apis/credentials?project=pure-karma-355117
+- Download client_secret.json from the Oauth2.0 Client IDs
+4. Install google client library.
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
