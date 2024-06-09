@@ -1,0 +1,7 @@
+Setup project
+- pip install python-dateutil
+
+
+Setup tests
+1. pip install pytest
+2. Use include a function with the test_ prefix. e.g. test_datetime
