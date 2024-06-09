@@ -17,7 +17,7 @@ class TestDataTimeHelper:
         now = DateTimeHelper.get_today_without_time()
 
         # Assert
-        assert  1 == 1
+        assert  (expected_date == now)
 
     def test_get_today_with_time(self):
         # Arrange 

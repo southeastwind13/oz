@@ -1,7 +1,12 @@
 Setup project
 - pip install python-dateutil
+- pip install openai
 
 
 Setup tests
 1. pip install pytest
 2. Use include a function with the test_ prefix. e.g. test_datetime
+3. Create 'conftest.py', It is a share test fixture across multiple files
+4. Test function need test_ prefix in the function name.
+5. Test class need Test prefix in the class name.
+6. Fixture is declared as a function but it will call as a parameter.
