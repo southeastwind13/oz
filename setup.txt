@@ -1,6 +1,7 @@
 Setup project
 - pip install python-dateutil
 - pip install openai
+- pip install pandas
 
 
 Setup tests
